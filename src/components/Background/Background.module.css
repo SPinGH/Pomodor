@@ -1,0 +1,22 @@
+.root {
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+}
+
+.root img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transition: transform 0.2s ease-out;
+}
